@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern Web Tech Docs</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <header>Modern Web Technologies</header>
+    <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+    <a class="nav-link" href="#CSS_Fundamentals">CSS Fundamentals</a>
+    <a class="nav-link" href="#JavaScript_Essentials">JavaScript Essentials</a>
+    <a class="nav-link" href="#Responsive_Design">Responsive Design</a>
+    <a class="nav-link" href="#APIs_and_Fetch">APIs and Fetch</a>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="HTML_Basics">
+      <header>HTML Basics</header>
+      <p>HTML is the foundation of web development.</p>
+      <p>It defines the structure of web pages using markup.</p>
+      <p>Tags are used to delineate elements like headings, paragraphs, links, etc.</p>
+      <p>HTML5 introduced new semantic elements like <code>&lt;article&gt;</code> and <code>&lt;section&gt;</code>.</p>
+      <p>Accessibility begins with semantic HTML.</p>
+      <ul>
+        <li><code>&lt;h1&gt; to &lt;h6&gt;</code> for headings</li>
+        <li><code>&lt;p&gt;</code> for paragraphs</li>
+        <li><code>&lt;a&gt;</code> for links</li>
+        <li><code>&lt;div&gt;</code> for divisions</li>
+        <li><code>&lt;span&gt;</code> for inline elements</li>
+      </ul>
+      <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+    </section>
+
+    <section class="main-section" id="CSS_Fundamentals">
+      <header>CSS Fundamentals</header>
+      <p>CSS styles the structure defined by HTML.</p>
+      <p>CSS3 added powerful features like Flexbox and Grid.</p>
+      <p>Styles are defined in rules with selectors and declarations.</p>
+      <p>You can apply styles inline, in the head, or in external stylesheets.</p>
+      <p>Classes and IDs help target specific elements.</p>
+      <ul>
+        <li>Selectors</li>
+        <li>Properties</li>
+        <li>Box model</li>
+        <li>Display types</li>
+        <li>Responsive design</li>
+      </ul>
+      <code>body { font-family: Arial; }</code>
+    </section>
+
+    <section class="main-section" id="JavaScript_Essentials">
+      <header>JavaScript Essentials</header>
+      <p>JavaScript brings interactivity to web pages.</p>
+      <p>It runs in the browser and can manipulate the DOM.</p>
+      <p>Modern JS supports ES6+ features like arrow functions and classes.</p>
+      <p>It is event-driven and asynchronous in nature.</p>
+      <p>APIs like Fetch enable network requests directly from the browser.</p>
+      <ul>
+        <li>Variables</li>
+        <li>Functions</li>
+        <li>DOM manipulation</li>
+        <li>Events</li>
+        <li>Async/await</li>
+      </ul>
+      <code>console.log("Hello, JS!");</code>
+    </section>
+
+    <section class="main-section" id="Responsive_Design">
+      <header>Responsive Design</header>
+      <p>Responsive design ensures your site looks good on all devices.</p>
+      <p>Media queries are a powerful CSS feature for this.</p>
+      <p>Flexbox and Grid help layout elements in adaptive ways.</p>
+      <p>Mobile-first design is the recommended approach today.</p>
+      <p>Viewport meta tag is essential for responsiveness.</p>
+      <ul>
+        <li>Flexible layouts</li>
+        <li>Relative units</li>
+        <li>Breakpoints</li>
+        <li>Accessibility</li>
+        <li>Performance</li>
+      </ul>
+      <code>@media (max-width: 600px) { nav { display: none; } }</code>
+    </section>
+
+    <section class="main-section" id="APIs_and_Fetch">
+      <header>APIs and Fetch</header>
+      <p>APIs let your app interact with external data and services.</p>
+      <p>RESTful APIs return JSON data typically.</p>
+      <p>Fetch API is built into modern browsers.</p>
+      <p>You can chain promises to handle asynchronous operations.</p>
+      <p>Error handling is crucial with network requests.</p>
+      <ul>
+        <li>GET and POST requests</li>
+        <li>Status codes</li>
+        <li>Headers</li>
+        <li>Authorization</li>
+        <li>Error handling</li>
+      </ul>
+      <code>fetch('https://api.example.com/data')</code>
+    </section>
+  </main>
+</body>
+</html>
